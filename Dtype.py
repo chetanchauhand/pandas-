@@ -1,5 +1,5 @@
 # Find DataType
-# using ndim find dimension,size ,shape,index
+# using ndim find dimension,size ,shape,index,Transpose
 
 import pandas as pd
 
@@ -17,4 +17,5 @@ print("\n Dimension : \n",df.ndim)
 print("\n Shape of data : \n",df.shape)
 print("\n Size of Data : \n",df.size)
 print("\n Size of index : \n",df.index)
+print("\n Transpose : \n",df.T)
 print("\n DataType : \n",df.dtypes)
