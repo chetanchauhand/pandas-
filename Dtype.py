@@ -14,4 +14,6 @@ df = pd.DataFrame(data , index=['Student1','Student2','Student3','Student4','Stu
 print("\n Record of Students : \n",df)
 
 print("\n Dimension : \n",df.ndim)
+
+print("\n Size of Data : \n",df.size)
 print("\n DataType : \n",df.dtypes)
