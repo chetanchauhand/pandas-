@@ -1,5 +1,5 @@
 # Find DataType
-# using ndim find dimension,size ,shape
+# using ndim find dimension,size ,shape,index
 
 import pandas as pd
 
@@ -16,4 +16,5 @@ print("\n Record of Students : \n",df)
 print("\n Dimension : \n",df.ndim)
 print("\n Shape of data : \n",df.shape)
 print("\n Size of Data : \n",df.size)
+print("\n Size of index : \n",df.index)
 print("\n DataType : \n",df.dtypes)
