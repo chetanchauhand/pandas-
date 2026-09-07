@@ -1,4 +1,4 @@
-# Pandas dtype,ndim,size,name attribute
+# Pandas dtype,ndim,size,name,hasnans attribute
 import numpy as np
 import pandas as pd
 
