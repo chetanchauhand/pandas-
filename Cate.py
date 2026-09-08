@@ -9,7 +9,7 @@
 
 import pandas as pd
 
-s = pd.DataFrame({"Cat1":list(),"Cate1":list(""),"Cat1":list(""),"Cat1":("")},dtype="category")
+s = pd.DataFrame({"Cat1":list("gan"),"Cat2":list("ass"),"Cat3":list("ana")},dtype="category")
 
 print(s)
 
