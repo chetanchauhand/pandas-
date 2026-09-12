@@ -15,5 +15,6 @@ res = pd.DataFrame(data)
 
 print("Studnt record  : ",res)
 
-resRf = res.drop("Id",axis='columns')
+# resRf = res.drop("Id",axis='columns')
+resRf = res.drop(res.columns[3], axis=1)
 print("Removed column is: ",resRf)
