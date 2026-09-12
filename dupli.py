@@ -9,5 +9,6 @@ data = {
 res = pd.DataFrame(data)
 print("Students records :\n",res)
 
-resf = res.drop_duplicates()
+# resf = res.drop_duplicates()
+resf = res.duplicated()
 print("\n Duplicates value is :\n",resf)
