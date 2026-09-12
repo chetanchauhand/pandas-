@@ -8,6 +8,8 @@ series = pd.Series(data)
 
 print("\n Series of Student is : \n",series)
 
-rs = series.str.lower()
+# rs = series.str.lower()
+# rs = series.str.upper()
+rs = series.str.title()
 
 print("\n lower of this series:\n",rs)
