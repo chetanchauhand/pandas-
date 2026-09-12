@@ -12,4 +12,6 @@ res = pd.DataFrame(data)
 
 print("\n Students records :",res)
 
-print("\n Sorted value:",res.sort_values(by=['Id']))
+# print("\n Sorted value:",res.sort_values(by=['Id']))
+
+print("\n Sorted value:",res.sort_values(by=['Id'],ascending=False))
