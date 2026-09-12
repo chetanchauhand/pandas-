@@ -13,5 +13,9 @@ res = pd.DataFrame(data)
 print("\n Students records :",res)
 
 print("\n Iterating Rows:")
-for i in res.iterrows():
+# for i in res.iterrows():
+#     print(i)
+
+for i in res.itertuples():
     print(i)
+
