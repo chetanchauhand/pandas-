@@ -8,7 +8,10 @@ print("Dataframe is :\n",data)
 
 # rs = data.isnull()
 # rs = data.notnull()
-rs = data.dropna()
+# rs = data.dropna()
 
+# print("Method in pandas :\n",rs)
+# print("Method in pandas :\n",rs.to_string())
+rs = data.fillna(111)
 
-print("Method in pandas :\n",rs.to_string())
+print(rs.to_string())
